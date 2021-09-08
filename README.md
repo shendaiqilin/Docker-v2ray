@@ -119,4 +119,3 @@ xxxxx.com;非0;16;kcp;wireguard;
 * [X] aes-128-gcm
 * [X] chacha20-poly1305 或称 chacha20-ietf-poly1305
 * [X] xchacha20-ietf-poly1305
-* 
