@@ -15,8 +15,10 @@ bash install.sh
 
 ### Docker run 使用方法
 ```
-docker run -d --name=v3 -e speedtest=0 -e api_port=2335 -e usemysql=0 -e downWithPanel=0 -e node_id=节点ID -e sspanel_url=你的面板地址 -e key=你的mukey -e CacheDurationSec=120 --log-opt max-size=10m --log-opt max-file=5 --network=host --restart=always tangjr/v2ray:1.0
-
+docker run -d --name=v3 -e speedtest=0 -e api_port=2335 -e usemysql=0 -e downWithPanel=0 -e node_id=节点ID
+-e sspanel_url=你的面板地址 -e key=你的mukey -e CacheDurationSec=120 --log-opt max-size=10m --log-opt 
+max-file=5 --network=host --restart=always tangjr/v2ray:1.0
+```
 ### 中转写法
 中转用法是在前端节点地址后面加上|outside_port=中转端口|relayserver=中转ip 例： // ws完整写法示例：
 ```
