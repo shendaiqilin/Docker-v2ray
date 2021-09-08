@@ -1,18 +1,10 @@
-mkdir v2ray-agent &&
-cd v2ray-agent &&
-curl https://raw.githubusercontent.com/hulisang/v2ray-sspanel-v3-mod_Uim-plugin/master/install.sh -o install.sh &&
-chmod +x install.sh &&
-bash install.sh
-
 感恩原作者rico辛苦付出 本人仅做备份和后续维护 caddy镜像更新支持tls1.3
 
 使用教程请看wiki
 
-既然破解版都泛滥了我也放出来吧，此版本有审计和数据库对接
-
 mkdir v2ray-agent &&
 cd v2ray-agent &&
-curl https://raw.githubusercontent.com/hulisang/SSPanel-UIM-v2plugin/master/install-dev.sh -o install.sh &&
+curl https://raw.githubusercontent.com/shendaiqilin/Docker-v2ray/master/install-dev.sh -o install.sh &&
 chmod +x install.sh &&
 bash install.sh
 
